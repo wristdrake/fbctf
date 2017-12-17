@@ -4,7 +4,7 @@ class IndexController extends Controller {
   <<__Override>>
   public function getTitle(): string {
     $custom_org = \HH\Asio\join(Configuration::gen('custom_org'));
-    return tr($custom_org->getValue()). ' '. tr('CTF');
+    return tr($custom_org->getValue()). ' '. 'Defend our Cyberspace';
   }
 
   <<__Override>>
@@ -43,7 +43,7 @@ class IndexController extends Controller {
     if ($custom_org->getValue() === 'Facebook') {
       $welcome_msg = tr('Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.');
     } else {
-      $welcome_msg = 'Welcome to the ' . $custom_org->getValue() . ' Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.';
+      $welcome_msg = 'Every year, ' . $custom_org->getValue() . ' faces countless cyber attacks. Press "Play" to defend against these and help Wärtsilä become the foremost trusted and recognized industry leader in cyber resilience.';
     }
     return
       <div class="fb-row-container full-height fb-scroll">
