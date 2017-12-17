@@ -8,19 +8,19 @@ $translations = array(
   'Facebook CTF' =>
     'Facebook CTF',
   'Conquer the world' =>
-    'Conquer the world',
+    'Defend our Cyberspace',
   'Play' =>
     'Play',
   'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.' =>
-    'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.',
+    'Every year, Wärtsilä faces countless cyber attacks. Press "Play" to defend against these and help Wärtsilä become the foremost trusted and recognized industry leader in cyber resilience.',
   'Get ready for the CTF to start and access the gameboard now!' =>
-    'Get ready for the CTF to start and access the gameboard now!',
+    'Get ready for the competition to start and access the gameboard now!',
   'Gameboard' =>
     'Gameboard',
   'Register Team' =>
     'Register Team',
   'Get ready for the CTF to start and register your team now!' =>
-    'Get ready for the CTF to start and register your team now!',
+    'Get ready for the competition to start and register your team now!',
   'Login' =>
     'Login',
   'Soon' =>
@@ -36,7 +36,7 @@ $translations = array(
   '_seconds' =>
     '_seconds',
   'Official CTF Rules' =>
-    'Official CTF Rules',
+    'Official Competition Rules',
   'Following actions are prohibited, unless explicitly told otherwise by event Admins.' =>
     'Following actions are prohibited, unless explicitly told otherwise by event Admins.',
   'Rule' =>
@@ -94,7 +94,7 @@ $translations = array(
   'Sign Up' =>
     'Sign Up',
   'Register to play Capture The Flag here. Once you have registered, you will be logged in.' =>
-    'Register to play Capture The Flag here. Once you have registered, you will be logged in.',
+    'Register to play here. Once you have registered, you will be logged in.',
   'Not Available' =>
     'Not Available',
   'Team Registration will be open soon, stay tuned!' =>
@@ -116,7 +116,7 @@ $translations = array(
   'Window is too small' =>
     'Window is too small',
   'For the best CTF experience, please make window size bigger.' =>
-    'For the best CTF experience, please make window size bigger.',
+    'For the best competition experience, please make window size bigger.',
   'Thank you.' =>
     'Thank you.',
   'Logout' =>
@@ -124,7 +124,7 @@ $translations = array(
   'Registration' =>
     'Registration',
   'Play CTF' =>
-    'Play CTF',
+    'Play',
   'Rules' =>
     'Rules',
   //Translations for GameboardController
@@ -370,7 +370,7 @@ $translations = array(
   'Keep Points' =>
     'Keep Points',
   'Capture points' =>
-    'Capture points',
+    'Defence points',
   'All Base Levels' =>
     'All Base Levels',
   'Base Level' =>
@@ -503,7 +503,7 @@ $translations = array(
     'Logos',
   //Translations for inc/* and inc/gameboard/*
   'captured' =>
-    'captured',
+    'defended',
   'Status' =>
     'Status',
   'Completed' =>
@@ -527,7 +527,7 @@ $translations = array(
   'Your Team' =>
     'Your Team',
   'Captured' =>
-    'Captured',
+    'Defended',
   'Initiating' =>
     'Initiating',
   'run : > boot_sequence' =>
@@ -581,7 +581,7 @@ $translations = array(
   'choose_logo' =>
     'choose_logo',
   'captured_' =>
-    'captured_',
+    'Defended_',
   'flag_owner_' =>
     'flag_owner_',
   'INACTIVE' =>
@@ -591,7 +591,7 @@ $translations = array(
   'category' =>
     'category',
   'capture_' =>
-    'capture_',
+    'defend_',
   'Insert your answer' =>
     'Insert your answer',
   'Request Hint' =>
@@ -601,7 +601,7 @@ $translations = array(
   'hint_' =>
     'hint_',
   'first_capture' =>
-    'first_capture',
+    'first_defence',
   'completed_by' =>
     'completed_by',
   'scoreboard_' =>
@@ -643,11 +643,11 @@ $translations = array(
   'Countries marked with an ' =>
     'Countries marked with an ',
   'are captured by you.' =>
-    'are captured by you.',
+    'are defended by you.',
   ' are owned by others.' =>
     ' are owned by others.',
   'Captures' =>
-    'Captures',
+    'Defenses',
   'Tap Plus[+] to Zoom In. Tap Minus[-] to Zoom Out.' =>
     'Tap Plus[+] to Zoom In. Tap Minus[-] to Zoom Out.',
   'Click and Drag to move left, right, up and down.' =>
@@ -673,7 +673,7 @@ $translations = array(
   'Skip to play' =>
     'Skip to play',
   'Powered By Facebook' =>
-    'Powered By Facebook',
+    'Powered By The CS Team',
   'Active Directory / LDAP' =>
     'Active Directory / LDAP',
   'LDAP Server' =>
